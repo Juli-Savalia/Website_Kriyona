@@ -1,0 +1,41 @@
+.line {
+  height: 2px;
+  width: 176px;
+  background-color: white;
+}
+.main-text {
+  font-size: 70px;
+}
+.main-text span {
+  background: linear-gradient(
+    89.84deg,
+    #27d0fe 2.07%,
+    #3361ef 30.71%,
+    #38befc 57%,
+    #345ffb 99.91%
+  ) !important;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+}
+.sideillusion {
+  bottom: -40%;
+  z-index: -1;
+  backdrop-filter: blur(8px);
+}
+.banner {
+  z-index: 1;
+}
+.banner-img img {
+  animation: move 5s linear infinite !important;
+}
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
