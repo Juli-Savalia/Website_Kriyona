@@ -1,0 +1,43 @@
+.cards-3d {
+  /* position: relative; */
+  perspective: 1000px;
+  /* float: left; */
+}
+.card-front {
+  /* position: absolute; */
+  transition: all 0.5s;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-back {
+  /* position: absolute; */
+  backface-visibility: hidden;
+  transform: rotatey(180deg);
+  width: 100%;
+  height: 100%;
+  transform-style: preserve 3d;
+  transition: all 1s;
+  /* display: none; */
+}
+
+.cards:hover .card-front {
+  transform: rotatey(-180deg);
+  display: block;
+}
+.cards:hover .card-back {
+  transform: rotateY(0);
+  display: block;
+}
+.cards .cards-img img {
+  transition: all 0.5s;
+}
+.cards .cards-img {
+  overflow: hidden;
+}
+.cards:hover .cards-img img {
+  transform: scale(1);
+}
+.cards:hover .cards-img img {
+  transform: scale(1.2);
+}

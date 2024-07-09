@@ -1,0 +1,28 @@
+.outer-loader {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  position: fixed;
+  top: 0;
+  display: grid;
+  place-items: center;
+}
+.Loader {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #d80f0f;
+  border-top: 40px solid #149b0c;
+  animation: Loader 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes Loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}

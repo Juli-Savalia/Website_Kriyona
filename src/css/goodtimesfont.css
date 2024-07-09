@@ -1,0 +1,196 @@
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Rg";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesRgBoldItalic.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesRgBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgBoldItalic.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgBoldItalic.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgBoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Rg";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesRgBold.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesRgBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgBold.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgBold.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Bk";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesBkRegular.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesBkRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesBkRegular.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesBkRegular.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesBkRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Bad Times";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesBadTimesRegular.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesBadTimesRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesBadTimesRegular.woff2")
+      format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesBadTimesRegular.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesBadTimesRegular.ttf")
+      format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Bk";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesBkItalic.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesBkItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesBkItalic.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesBkItalic.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesBkItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times El";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesElItalic.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesElItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesElItalic.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesElItalic.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesElItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Hv";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesHvRegular.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesHvRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesHvRegular.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesHvRegular.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesHvRegular.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times El";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesElRegular.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesElRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesElRegular.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesElRegular.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesElRegular.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Hv";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesHvItalic.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesHvItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesHvItalic.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesHvItalic.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesHvItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Lt";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesLtRegular.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesLtRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesLtRegular.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesLtRegular.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesLtRegular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Rg";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesRgItalic.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesRgItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgItalic.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgItalic.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Ul";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesUlRegular.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesUlRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesUlRegular.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesUlRegular.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesUlRegular.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Lt";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesLtItalic.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesLtItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesLtItalic.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesLtItalic.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesLtItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Ul";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesUlItalic.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesUlItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesUlItalic.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesUlItalic.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesUlItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Good Times Rg";
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesRgRegular.eot");
+  src: url("../fonts/FONTSPRINGDEMO-GoodTimesRgRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgRegular.woff2") format("woff2"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgRegular.woff") format("woff"),
+    url("../fonts/FONTSPRINGDEMO-GoodTimesRgRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
