@@ -108,6 +108,9 @@ a {
 .pt-150 {
   padding-top: 150px;
 }
+.mb-80 {
+  margin-bottom: 80px;
+}
 .border-red {
   border: 2px solid #d40e0e !important;
 }
@@ -201,6 +204,9 @@ a {
 .top-59 {
   top: 59%;
 }
+.b-56 {
+  bottom: 56%;
+}
 .hw30 {
   height: 30px;
   width: 30px;
@@ -226,7 +232,8 @@ a {
   width: 100% !important;
   display: grid !important;
   place-items: center !important;
-  background-color: #eef7eeab;
+
+  /* background-color: #eef7eeab; */
 }
 .liststyle {
   list-style: disc;

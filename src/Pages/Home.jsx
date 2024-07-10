@@ -72,7 +72,7 @@ const Home = () => {
                       We Build Innovative Mobile Application, Websites And
                       Blockchain Solutions
                     </p>
-                    <button className="border-0 outline-none bg-transparent my-4 main-btn rounded-20 px-4 py-3">
+                    <button className="btn-bordermain border-0 outline-none bg-transparent my-4 main-btn rounded-20 px-4 py-3">
                       <Link className="text-darkgreen fs-5">
                         Explore Now <FaArrowRight className="ms-2" />
                       </Link>
@@ -80,7 +80,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-4 col-lg-5 col-sm-12 col-xs-12">
-                  <div className="banner-img">
+                  <div className="banner-img animate__animated animate__fadeInUp">
                     <img
                       src="public/images/banner/banner1.png"
                       alt="banner-img"

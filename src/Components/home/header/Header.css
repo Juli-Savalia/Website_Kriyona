@@ -39,3 +39,23 @@ header.scrolled img {
   display: none;
   /* other styles for the button */
 }
+@media screen and (max-width: 980px) {
+  .toggle-menu{
+    background-color: rgb(233, 248, 230);
+    padding: 20px;
+  }
+  .toggle-menu ul li{
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(199, 241, 199);
+  }
+  .toggle-menu button{
+    background-color: transparent;
+    padding: 10px 0!important;
+  }
+  .toggle-menu button a{
+    color: #0a932a!important;
+  }
+  .career{
+    text-align: left!important;
+  }
+}

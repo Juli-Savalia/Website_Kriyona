@@ -3,6 +3,7 @@ import Header from "../Components/home/header/Header";
 import Footer from "../Components/home/Footer/Footer";
 import PropagateLoader from "react-spinners/PropagateLoader";
 import TopBtn from "../Components/TopBtn";
+import "../Pages/About.css";
 
 const About = () => {
   const [loading, setLoading] = useState(false);
@@ -30,7 +31,6 @@ const About = () => {
         <div className="bgmain">
           {/* header */}
           <Header></Header>
-
           <section className="pt-150">
             <div className="container">
               <div className="pb-4 border-bottom border-green">
@@ -54,6 +54,43 @@ const About = () => {
                   Continuous Innovation.
                 </div>
               </div>
+            </div>
+          </section>
+          <section className="p-100">
+            <div className="container">
+              <div className=" position-relative mb-80 ">
+                <div className="digit-about position-absolute">01</div>
+                <p className="fs-3 font-goodtime text-darkgreen m-0">
+                  Transparency
+                </p>
+                <p className="fs-5 text-secondary py-1">
+                  Our Primary Goal Has Always Been To Put Forth Constant Effort
+                  And Drive The Growth Of The Client's Business.
+                </p>
+              </div>
+              <div className=" position-relative mb-80 py-5">
+                <div className="digit-about position-absolute b-56">02</div>
+                <p className="fs-3 font-goodtime text-darkgreen m-0">
+                  Fairness
+                </p>
+                <p className="fs-5 text-secondary py-1">
+                  Regardless Of How Big Or Little The Client's Requirement Is,
+                  We Treat Every Job With The Same Importance And Put Our Best
+                  Effort Forward.
+                </p>
+              </div>
+              <div className=" position-relative">
+                <div className="digit-about position-absolute">03</div>
+                <p className="fs-3 font-goodtime text-darkgreen m-0">Focus</p>
+                <p className="fs-5 text-secondary py-1">
+                  While Working On Any Company Decision-Making Process, We Are
+                  Adamant About Keeping Complete Openness.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div className="container">
               <div className="d-flex flex-wrap align-items-center pt-5 justify-content-between py-5">
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-5">
                   <img

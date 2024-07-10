@@ -22,7 +22,7 @@ const Header = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div
-            className="collapse navbar-collapse col-8"
+            className="collapse navbar-collapse col-8 toggle-menu"
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -72,7 +72,7 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-            <div className="col-2 text-end">
+            <div className="col-2 career  text-end">
               <button className="rounded-pill px-5 py-3 bg-red border-0 outline-none m-0 p-0">
                 <Link className="text-white">Careers</Link>
               </button>

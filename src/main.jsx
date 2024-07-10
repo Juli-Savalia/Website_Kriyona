@@ -6,6 +6,9 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "jquery/dist/jquery.js";
 import "./js/jquery-3.7.1.min.js";
 import "./css/Utility.css";
+// import "./js/wow.min.js"
+import "animate.css"
+import WOW from 'wowjs';
 import "./css/all.min.css";
 import "./css/goodtimesfont.css";
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
