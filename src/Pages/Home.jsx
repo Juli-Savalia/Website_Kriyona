@@ -4,6 +4,7 @@ import "./Home.css";
 import PropagateLoader from "react-spinners/PropagateLoader";
 // import "../js/custom.js";
 import { Link } from "react-router-dom";
+import WOW from "wowjs";
 import { FaArrowRight } from "react-icons/fa";
 import Counter from "../Components/counter.jsx";
 import Footer from "../Components/home/Footer/Footer.jsx";
@@ -18,6 +19,12 @@ const Home = () => {
     setTimeout(() => {
       setLoading(false);
     }, 6000);
+  }, []);
+
+  useEffect(() => {
+    new WOW.WOW({
+      live: true,
+    }).init();
   }, []);
 
   const handleTabClick = (tab) => {
@@ -51,7 +58,7 @@ const Home = () => {
             <div className="container">
               <div className="d-flex flex-wrap justify-content-between">
                 <div className="col-xs-5 col-sm-12 col-md-8 col-lg-6 col-xl-6">
-                  <div className="banner-content w-100">
+                  <div className="banner-content w-100 wow animate__animated animate__fadeInLeft">
                     <ul className="p-0 m-0 d-flex align-items-center position-relative">
                       <li className="text-green text-uppercase fs-4 pe-2 py-4">
                         Software
@@ -93,13 +100,13 @@ const Home = () => {
           </section>
 
           {/* who we are  */}
-          <section className="p-50 py-5 position-relative z-99">
+          <section className="p-50 py-5 position-relative z-99 overflowx-hidden">
             <div className="container">
               <h3 className="fs-17 text-darkgreen letter-spacing fw-light text-center text-uppercase">
                 {" "}
                 W h O &nbsp; W E &nbsp; A R E
               </h3>
-              <h5 className="text-red text-center py-3 fs-3 font-goodtime">
+              <h5 className="text-red text-center py-3 fs-3 font-goodtime wow animate__animated animate__fadeInLeft">
                 KRIYONA TECHNOLOGIES
               </h5>
               <p className="text-dark py-3 fs-14 text-center w-75 mx-auto fw-light">
